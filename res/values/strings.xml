@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">TpAndroidLifeGame</string>
+
+    <string name="game_start">Start</string>
+    <string name="game_stop">Stop</string>
+    <string name="game_settings">Settings</string>
+    <string name="game_clear">Clear</string>
 </resources>
