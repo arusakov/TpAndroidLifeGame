@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:id="@+id/settingsTxt1"
+              android:text="test"/>
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_below="@id/settingsTxt1"
+              android:id="@+id/settingsTxt2"
+              android:text="test"/>
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_below="@id/settingsTxt2"
+              android:id="@+id/settingsTxt3"
+              android:text="test"/>
+
+    <Button android:id="@+id/settingsBtnOk"
+            android:layout_below="@id/settingsTxt3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/OK"/>
+
+    <Button android:id="@+id/settingsBtnCancel"
+            android:layout_below="@id/settingsBtnOk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/CANCEL"/>
+</RelativeLayout>
